@@ -1,0 +1,12 @@
+{
+  "backup_existing": true,
+  "create_backup_dir": true,
+  "backup_dir": "~/.config_backup",
+  "dry_run": false,
+  "verbose": true,
+  "custom_mappings": {
+    "<example-widget-1>": {
+      "eww, fabirc, or weld": "eww"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Auto configuration filtering rules for dotfile manager",
+    "last_updated": "2024-01-01"
+  },
+  "include_programs": {
+    "terminals": [
+      "alacritty", "kitty", "st", "urxvt", "xterm", "gnome-terminal", "konsole",
+      "terminator", "tilix", "hyper", "wezterm", "foot", "rio"
+    ],
+    "window_managers": [
+      "dwm", "i3", "sway", "hyprland", "labwc", "openbox", "fluxbox", 
+      "bspwm", "awesome", "xmonad", "herbstluftwm", "spectrwm", "qtile"
+    ],
+    "bars_widgets": [
+      "eww", "waybar", "polybar", "fabric", "weld", "lemonbar", "dzen2",
+      "conky", "tint2", "lxpanel", "xfce4-panel"
+    ],
+    "compositors": [
+      "picom", "compton", "xcompmgr", "mutter", "kwin", "compiz"
+    ],
+    "editors": [
+      "vim", "nvim", "emacs", "kate", "gedit", "code", "sublime-text"
+    ],
+    "shells": [
+      "zsh", "bash", "fish", "dash", "tcsh", "csh"
+    ],
+    "other": [
+      "tmux", "git", "ssh", "ranger", "lf", "nnn", "ncmpcpp", "mpd",
+      "neofetch", "htop", "btop", "bat", "fd", "ripgrep", "fzf"
+    ]
+  },
+  "exclude_directories": {
+    "system": [
+      "systemd", "dconf", "kde.org", "KDE", "kdedefaults", "libaccounts-glib",
+      "xsettingsd", "pulse", "gtk-3.0", "gtk-4.0", "session", "autostart",
+      "menus", "lxqt", "glib-2.0", "xdg-desktop-portal"
+    ],
+    "browsers": [
+      "chromium", "firefox", "chrome", "brave", "edge", "opera", "vivaldi",
+      "tor-browser", "waterfox", "pale-moon"
+    ],
+    "applications": [
+      "rustdesk", "antimicrox", "opendeck", "openvr", "nemo", "nwg-bar",
+      "nwg-drawer", "gtklock", "go", "yay", "Cursor", "code", "sublime-text",
+      "discord", "slack", "telegram", "whatsapp", "spotify", "vlc"
+    ],
+    "development": [
+      "nodejs", "npm", "yarn", "pnpm", "python", "pip", "conda", "rust",
+      "cargo", "go", "java", "gradle", "maven", "docker", "kubernetes"
+    ],
+    "games": [
+      "steam", "lutris", "heroic", "epic", "gog", "itch", "minecraft",
+      "factorio", "terraria", "stardew-valley"
+    ]
+  },
+  "include_keywords": [
+    "wm", "bar", "term", "editor", "shell", "compositor", "launcher",
+    "menu", "dock", "panel", "notification", "lock", "screenshot"
+  ],
+  "ignore_patterns": [
+    "*.lock", "*.socket", "*.cookie", "*.pid", "*.tmp", "*.log",
+    "*.cache", "*.db", "*.sqlite", "*.sqlite3", "*.wal", "*.shm",
+    "Singleton*", "Crash Reports", "WebStorage", "IndexedDB",
+    "Local Storage", "Session Storage", "GPUCache", "ShaderCache",
+    "Crashpad", "logs", "cache", "Cache", "CACHE", "*.bak", "*.backup"
+  ],
+  "confirmation_threshold": 10,
+  "max_configs_per_pull": 50
+}

@@ -1,0 +1,164 @@
+{
+  "single_config_only": {
+    "alacritty": {
+      "warning": "Alacritty can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "GPU-accelerated terminal emulator"
+    },
+    "kitty": {
+      "warning": "Kitty can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "Fast, feature-rich terminal emulator"
+    },
+    "st": {
+      "warning": "st (simple terminal) can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "Simple terminal emulator"
+    },
+    "urxvt": {
+      "warning": "urxvt can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "Unicode rxvt terminal emulator"
+    },
+    "xterm": {
+      "warning": "xterm can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "X11 terminal emulator"
+    },
+    "gnome-terminal": {
+      "warning": "gnome-terminal can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "GNOME terminal emulator"
+    },
+    "picom": {
+      "warning": "Picom can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "compositor",
+      "description": "Lightweight compositor for X11"
+    },
+    "compton": {
+      "warning": "Compton can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "compositor",
+      "description": "Compton compositor (deprecated, use picom)"
+    },
+    "xcompmgr": {
+      "warning": "xcompmgr can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "compositor",
+      "description": "Simple compositing manager for X11"
+    },
+    "vim": {
+      "warning": "Vim can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "editor",
+      "description": "Vi IMproved text editor"
+    },
+    "emacs": {
+      "warning": "Emacs can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "editor",
+      "description": "GNU Emacs text editor"
+    },
+    "tmux": {
+      "warning": "tmux can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "terminal",
+      "description": "Terminal multiplexer"
+    },
+    "git": {
+      "warning": "Git can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "version_control",
+      "description": "Distributed version control system"
+    },
+    "ssh": {
+      "warning": "SSH can only load one configuration file. Multiple configs will overwrite each other.",
+      "suggestion": "Consider using different config names or environment-specific subdirectories.",
+      "category": "network",
+      "description": "Secure Shell client"
+    }
+  },
+  "supports_multiple_configs": {
+    "eww": {
+      "info": "EWW supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "widget",
+      "description": "ElKowars wacky widgets"
+    },
+    "fabric": {
+      "info": "Fabric supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "widget",
+      "description": "Fabric widget system"
+    },
+    "weld": {
+      "info": "Weld supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "use 'weldctl enable <widget-name>' to enable a widget.",
+      "category": "widget",
+      "description": "Weld widget system"
+    },
+    "waybar": {
+      "info": "Waybar supports multiple configuration files via --config flag.",
+      "suggestion": "Use --config flag to specify different config files or use subdirectory structure.",
+      "category": "widget",
+      "description": "Highly customizable Wayland bar"
+    },
+    "hyprland": {
+      "info": "Hyprland supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "Dynamic tiling Wayland compositor"
+    },
+    "labwc": {
+      "info": "LabWC supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "Stacking Wayland compositor"
+    },
+    "sway": {
+      "info": "Sway supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "i3-compatible Wayland compositor"
+    },
+    "i3": {
+      "info": "i3 supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "Dynamic tiling window manager"
+    },
+    "openbox": {
+      "info": "Openbox supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "Lightweight window manager"
+    },
+    "fluxbox": {
+      "info": "Fluxbox supports multiple configuration files and can load them via command line arguments.",
+      "suggestion": "Use --config flag to specify different config files.",
+      "category": "window_manager",
+      "description": "Lightweight window manager"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-01",
+    "description": "Program compatibility settings for dotfile manager",
+    "categories": {
+      "terminal": "Terminal emulators and multiplexers",
+      "compositor": "Compositing managers",
+      "editor": "Text editors",
+      "widget": "Widget systems and status bars",
+      "window_manager": "Window managers and compositors",
+      "version_control": "Version control systems",
+      "network": "Network tools and clients"
+    }
+  }
+}

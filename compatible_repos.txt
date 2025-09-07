@@ -1,0 +1,9 @@
+# Compatible Dotfile Repositories
+# Format: name|url|description|tags (comma-separated)
+# Example: my-theme|https://github.com/user/my-theme.git|A beautiful theme|hyprland,eww
+
+catppuccin-hyprland|https://github.com/catppuccin/hyprland.git|Catppuccin theme for Hyprland|hyprland,theme,catppuccin
+awesome-eww|https://github.com/awesome-eww/awesome-eww.git|Awesome EWW widgets collection|eww,widgets,awesome
+minimal-labwc|https://github.com/minimal-labwc/minimal-labwc.git|Minimal LabWC configuration|labwc,minimal,clean
+dracula-terminal|https://github.com/dracula/terminal.git|Dracula theme for terminals|terminal,theme,dracula,alacritty
+nord-theme|https://github.com/nordtheme/nord.git|Nord color scheme|theme,nord,universal
