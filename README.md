@@ -115,17 +115,6 @@ The dotfile manager uses a JSON configuration file (`dotfile_config.json`) to cu
 
 ```json
 {
-  "environment_detection": {
-    "window_manager": ["hyprland", "labwc", "sway", "i3"],
-    "compositor": ["picom", "compton", "xcompmgr"],
-    "shell": ["bash", "zsh", "fish"],
-    "terminal": ["alacritty", "kitty", "st", "urxvt"]
-  },
-  "file_mappings": {
-    "eww": "eww",
-    "hyprland": "hyprland",
-    "alacritty": "alacritty"
-  },
   "backup_existing": true,
   "create_backup_dir": true,
   "dry_run": false
